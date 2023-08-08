@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Nav } from './Nav';
-import Play from '../assets/iimages/play.png';
 import Logoplay from '../assets/iimages/PlayLogo.png';
-import { Button } from 'reactstrap';
+
 
 const Header = () => {
     const [showTrailer, setShowTrailer] = useState(false); // Estado para controlar a exibição do vídeo
@@ -50,7 +49,6 @@ const Header = () => {
                                 height="315"
                                 src="https://www.youtube.com/embed/t_ULBP6V9bg"
                                 title="YouTube video player"
-                                frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowFullScreen
                             ></iframe>
