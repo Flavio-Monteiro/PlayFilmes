@@ -13,7 +13,6 @@ const Nav = () => {
 
   return (
     <div className='nav'>
-    
       <ul>
         <li
           onMouseEnter={() => handleMouseEnter(1)}

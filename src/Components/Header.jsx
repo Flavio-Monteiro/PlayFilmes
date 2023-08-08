@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav } from './Nav';
-import Logoplay from '../assets/iimages/PlayLogo.png';
+
 
 
 const Header = () => {
@@ -14,7 +14,6 @@ const Header = () => {
         <div className='header'>
             <div className='gradient'>
                 <div className='moovie-present'>
-                    <img width={75} height={64} src={Logoplay} alt="" />
                     <Nav />
                     <p>Filmes online - Duração: 1h 54min</p>
                     <h1>Supernatural</h1>
