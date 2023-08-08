@@ -14,24 +14,15 @@ const Header = () => {
         <div className='header'>
             <div className='gradient'>
                 <div className='moovie-present'>
-                    <img width={64} height={64} src={Logoplay} alt="" />
+                    <img width={75} height={64} src={Logoplay} alt="" />
                     <Nav />
                     <p>Filmes online - Duração: 1h 54min</p>
-                    <h1>Marvel - Os Vingadores</h1>
+                    <h1>Supernatural</h1>
                     <p>
                         <details>
                             <summary>Sinopse</summary>
-                            Com uma escalação de astros que inclui Homem de Ferro,
-                            Capitão América, Thor, Hulk, Gavião Arqueiro,
-                            o recém-chegado e incrível Falcão e a Viúva Negra,
-                            Os Vingadores Unidos, da Marvel, são verdadeiramente uma irmandade.
-                            Eles salvam o mundo das maiores ameaças imagináveis - do tipo que um único super-herói não pode lidar.
-                            Agora, eles precisam combater uma equipe formada pelos vilões mais perigosos do planeta, A Cabala,
-                            um grupo que se reuniu sob a liderança do Caveira Vermelha! Liderados pelo Homem de Ferro,
-                            os heróis treinam e vivem juntos em sua nova sede,
-                            na Torre dos Vingadores. Não importa se eles estão impedindo o Dr. Destino de conquistar Asgard,
-                            Attuma de levar o Exército da Atlântida até Nova York ou o Drácula de liberar hordas de vampiros,
-                            os Vingadores devem trabalhar juntos para ter sucesso.
+                            A série segue os irmãos Sam Winchester e Dean Winchester que viajam por toda a América em um Chevrolet Impala 1967 preto investigando e combatendo eventos paranormais e outras ocorrências inexplicáveis,
+                             muitas delas baseadas em lendas urbanas americanas e folclore, assim como diferentes criaturas sobrenaturais.
                         </details>
                     </p>
                     <div className='btn-cantainer'>

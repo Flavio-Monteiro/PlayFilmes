@@ -9,13 +9,13 @@
 }
 .header{
     min-height: 50vh;
-    background-image: url(../public/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../public/spn.jpg);
     background-attachment: fixed;
-    background-position: top center;
+    background-position: center;
 }
 .gradient{
     min-height: 70vh;
-    background-image: linear-gradient(to top, #020202 50%, transparent);
+    background-image: linear-gradient(to top, #020202 30%, transparent);
 }
 .moovie-present{
     position: relative;
@@ -25,7 +25,8 @@
     padding: 1em;
     width: 80%;
   
-} p{
+}
+ p{
     margin-top: 2em;
 }
 .gradient p{
@@ -38,19 +39,17 @@
 } 
 .nav{
     width: 100%;
-    
     justify-content: end;
 }.moovie-present img{
     position: absolute;
     left: 0;
 }
 .nav ul {
-    background: #1a191981;
     display: flex;
     justify-content: end;
 
 }.nav ul li{
-    margin: 20px;
+    margin: 15px;
     list-style-type: none;
 }
 .nav ul li a{
@@ -58,6 +57,7 @@
     text-decoration: none;
     font-family: var(--font-OpenSans);
     font-size: 1em;
+    font-weight: 600;
 }
 .btn-cantainer{
     display: flex;
@@ -258,5 +258,10 @@
     }.moovie-present p{
       width: 100%;
       text-align: justify;
-    }
+   
   }
+}.moovie-present h1{
+  font-size: clamp(2em, 8vw, 4em);
+  color: rgb(216, 214, 214);
+  text-shadow: 2px 2px 3px rgba(10, 10, 10, 0.938);
+}
